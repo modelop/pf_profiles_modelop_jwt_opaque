@@ -22,6 +22,14 @@
         <urn1:AttributeMap Name="modelop-rba" Type="Text" Value="stored-models-author runtimes-updater deployable-model-updater deployed-model-updater model-test-results-updater jobs-updater" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
+    <urn:UserKeyToAccessTokenMapping contextId="password|pingdirectory" tokenManagerId="referenceATM">
+        <urn1:AttributeMap Name="client_id" Type="Text" Value="model-manage" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+    </urn:UserKeyToAccessTokenMapping>
+    <urn:UserKeyToAccessTokenMapping contextId="authz_req|apc.Zxp6N6W5PH9onACT" tokenManagerId="referenceATM">
+        <urn1:AttributeMap Name="client_id" Type="Text" Value="model-manage" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+    </urn:UserKeyToAccessTokenMapping>
     <urn:PasswordCredentialValidatorToUserKeyMapping sourcePluginId="pingdirectory">
         <urn1:AttributeMap Name="USER_KEY" Type="Password Credential Validator" Value="mail" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
