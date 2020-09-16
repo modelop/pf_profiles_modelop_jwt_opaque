@@ -3,12 +3,11 @@
     <urn:Fields>
        <urn:Field name="Token Length">28</urn:Field>
         <urn:Field name="Token Lifetime">120</urn:Field>
-        <urn:Field name="Lifetime Extension Policy">No Extension</urn:Field>
         <urn:Field name="Maximum Token Lifetime"/>
         <urn:Field name="Lifetime Extension Threshold Percentage">30</urn:Field>
     </urn:Fields>
     <urn:AdvancedFields>
-        <urn:Field name="Mode for Synchronous RPC">Majority of Nodes</urn:Field>
+        <urn:Field name="Mode for Synchronous RPC">3</urn:Field>
         <urn:Field name="RPC Timeout">500</urn:Field>
     </urn:AdvancedFields>
     <urn:ExtendedContractAttributes>
