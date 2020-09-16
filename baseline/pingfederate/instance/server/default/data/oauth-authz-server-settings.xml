@@ -23,11 +23,11 @@
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
     <urn:UserKeyToAccessTokenMapping contextId="password|pingdirectory" tokenManagerId="referenceATM">
-        <urn1:AttributeMap Name="client_id" Type="CONTEXT" Value="ClientId" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="client_id" Type="Text" Value="model-manage" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
     <urn:UserKeyToAccessTokenMapping contextId="authz_req|apc.Zxp6N6W5PH9onACT" tokenManagerId="referenceATM">
-        <urn1:AttributeMap Name="client_id" Type="CONTEXT" Value="ClientId" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="client_id" Type="Text" Value="model-manage" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
     <urn:PasswordCredentialValidatorToUserKeyMapping sourcePluginId="pingdirectory">
